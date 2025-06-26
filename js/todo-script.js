@@ -45,7 +45,7 @@ function createlement(taskText = null, isCompleted = false) {
       <span class="task_text" title="Edit this task">${task}</span>
     </div>
     <div class="todo_actions">
-      <button class="delete_todo"><img src="../images/close.svg" alt="Close" class="delete_todo_svg" /></button>
+      <button class="delete_todo"><img src="/To-Do-App/images/close.svg" alt="Close" class="delete_todo_svg" /></button>
     </div>
   `;
 
