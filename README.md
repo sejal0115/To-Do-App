@@ -1,4 +1,4 @@
-# ✅ To-Do-App
+![image](https://github.com/user-attachments/assets/6dedd9c2-fbbd-4a1b-b6a7-31b02eaa9425)![image](https://github.com/user-attachments/assets/6dedd9c2-fbbd-4a1b-b6a7-31b02eaa9425)# ✅ To-Do-App
 🔥 A sleek, JavaScript-powered To-Do List app with Local Storage, Quote API, and interactive task management UI.
 
 ## 🚀 Features
@@ -11,7 +11,7 @@
 - ✨ Clean, responsive UI with accessibility improvements
 
 ## 📸 Screenshots
-_Add screenshots here (optional)_
+
 
 ## 🌐 Live Demo
 [Visit Live App]() 
@@ -30,3 +30,6 @@ _Add screenshots here (optional)_
 2. Open `index.html` in your browser
 3. Start organizing your day ✨
 
+```bash
+git clone (https://github.com/sejal0115/To-Do-App.git)
+cd To-Do-App
