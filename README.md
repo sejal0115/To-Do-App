@@ -11,7 +11,8 @@
 - ✨ Clean, responsive UI with accessibility improvements
 
 ## 📸 Screenshots
-
+![alt Initial](image.png)
+![alt Using it](image-1.png)
 
 ## 🌐 Live Demo
 [Visit Live App]() 
