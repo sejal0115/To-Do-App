@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/doodle3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+}
+
+.main_container {
+  width: 50%;
+  max-height: 88vh;
+  overflow-y: auto;
+  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.main_header {
+  text-align: center;
+  margin-bottom: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.inpt_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input_todo {
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px 5px 0 0;
+  outline: none;
+  width: 90%;
+}
+
+.add_todo {
+  font-size: 1.5rem;
+  padding: 0.2rem 0.8rem;
+  font-weight: lighter;
+  background-color: black;
+  color: white;
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.todo_list {
+  margin-top: 2rem;
+}
+
+.todo_list li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+  border: 1px solid;
+  padding: 0.7rem;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total_todo {
+  font-style: italic;
+}
+
+.qoute_generate h5 {
+  margin-top: 10px;
+  font-style: italic;
+  color: rgb(137, 137, 137);
+}
+
+.delete_todo {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.delete_todo_svg {
+  width: 16px;
+  height: 16px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.line_through {
+  text-decoration: line-through;
+  color: lightslategray;
+}
+
+.todo_list li div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.qoute_generate {
+  margin-bottom: 2rem;
+}
+
+.task_text {
+  cursor: context-menu;
+}
+
+.delete_all {
+  margin: 10px auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.delete_all:hover {
+  background-color: darkred;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #000000;
+  display: block;
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding-right: 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.todo_checkBox {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #242424;
+  border: 2px solid #5f5f5f;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.todo_checkBox:checked::after {
+  content: "✔";
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main_container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .main_container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .main_header {
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main_container {
+    width: 100%;
+    padding: 1rem;
+  }
+}

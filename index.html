@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlanLog</title>
+    <link rel="stylesheet" href="./css/todo-style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="main_header">
+        <h1>Your To Do 📝</h1>
+        <!-- <h1>Task List</h1> -->
+        <!-- <h1>Add. Check. Repeat.</h1> -->
+      </div>
+      <div class="inpt_section">
+        <input
+          class="input_todo"
+          type="text"
+          name="input_todo"
+          id="todo_inpt"
+          placeholder="Type a task and hit Enter..."
+        />
+        <button
+          class="add_todo"
+          id="add_tod_btn"
+          title="Add Task"
+          onclick="createlement()"
+        >
+          +
+        </button>
+      </div>
+      <div class="todo_list" id="todo_add_list"></div>
+      <div class="total_todo">
+        <h4>Your remaining todos : <span id="todo_counts">0</span></h4>
+      </div>
+      <div class="qoute_generate">
+        <h5 id="quote_text">Loading quote...</h5>
+      </div>
+    </div>
+    <footer>Crafted with 💻 & ❤️ by Sejal — Stay productive!</footer>
+    <script src="./js/todo-script.js"></script>
+  </body>
+</html>
